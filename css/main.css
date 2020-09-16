@@ -54,3 +54,29 @@ nav {
   grid-column: 3 / -1;
   grid-row: 1;
 }
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li {
+  list-style-type: none;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: underline;
+  color: #fff;
+}
+
+main {
+  display: grid;
+  grid-template-areas:
+    "figure figure"
+}
+
+figure {
+  align-items: flex-end;
+}
