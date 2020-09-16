@@ -8,6 +8,13 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+  font-family: 'Patua One', Georgia, sans-serif;
+  font-size: 2rem;
+  line-height: 1.5rem;
+}
+
 img {
   width: 100%;
 }
