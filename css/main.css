@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: Georgia;
+  font-family: "Patua One", cursive;
   font-size: 2rem;
   line-height: 1.5;
   margin: .5rem;
@@ -40,7 +40,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Patua One", sans-serif;
+  font-family: "Patua One", cursive;
   margin: 0;
   color: #30658d;
   font-size: .95rem;
@@ -48,12 +48,18 @@ h2 {
 
 p {
   margin: 0;
-  font-size: .7rem;
+  font-family: Georgia, sans-serif;
+  font-size: .5rem;
 }
 
 nav {
   grid-column: 3 / -1;
   grid-row: 1;
+}
+
+main {
+  margin: 0;
+  padding: 0;
 }
 
 ul {
@@ -70,7 +76,7 @@ li {
 a {
   text-decoration: underline;
   color: #fff;
-  font-family: "Patua One" sans-serif;
+  font-family: "Patua One", cursive;
 }
 
 main {
@@ -80,5 +86,5 @@ main {
 }
 
 figure {
-  align-items: flex-end;
+  margin: 0;
 }
